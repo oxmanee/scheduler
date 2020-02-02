@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', 'ManagePeopleController@viewAdd')->name('viewAdd');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 

@@ -55,8 +55,6 @@
     <div class="d-flex" id="wrapper">
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Patient</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Doctor</a>
                 <a href="{{ url('viewSchedule') }}"  class="list-group-item list-group-item-action bg-light">Management Schedule</a>
                 <div class="list-group-item list-group-item-action bg-light font-weight-bold">Management people</div>
                 <a href="{{ url('viewAdd') }}" class="list-group-item list-group-item-action bg-light sub-manage pl-5">Add people</a>
